@@ -77,4 +77,17 @@ To push th code to other branches (create and push code):
 
 By following these steps, you can successfully push the updated code from the "tester" branch to Azure DevOps. Let me know if you need further assistance!
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Azure Force Push 
+
+If you just want to push your local changes without dealing with the conflicts right now, you can force push your changes. However, be aware that force pushing can overwrite changes on the remote repository, which might not be desirable in a shared repository.
+
+### Force Push
+
+To force push your changes, use the `--force` or `-f` flag with `git push`:
+
+```sh
+git push -u azure tester --force
+```
 
